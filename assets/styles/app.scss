@@ -1,5 +1,11 @@
 // customize some Bootstrap variables
-$primary: red;
+// $primary: blue;
 
 // the ~ allows you to reference things in node_modules
 @import "~bootstrap/scss/bootstrap"; 
+
+//  Base
+@import "base/typography";
+
+// layouts
+@import "layouts/body/body_visitor";
